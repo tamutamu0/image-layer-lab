@@ -1,0 +1,22 @@
+{
+  "name": "image-layer-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "separate": "node src/separate.mjs",
+    "evaluate": "node src/evaluate-reasoning.mjs"
+  },
+  "dependencies": {
+    "@sketch-hq/sketch-file-format": "^6.5.0",
+    "adm-zip": "^0.6.1",
+    "ajv": "^8.20.0",
+    "fontkit": "^2.0.4",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@openai/codex": "^0.160.1"
+  },
+  "description": "Generate editable semantic image layers and Sketch documents with Codex app-server"
+}

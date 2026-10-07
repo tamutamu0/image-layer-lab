@@ -1,0 +1,32 @@
+# Only source, tests, docs, dependency locks and licensed fonts are published.
+*
+!.gitignore
+!README.md
+!package.json
+!package-lock.json
+!requirements.txt
+!src/
+!src/**
+!tests/
+!tests/**
+!docs/
+!docs/**
+!assets/
+!assets/fonts.conf
+!assets/NotoSansJP.ttf
+!assets/NotoSerifJP.ttf
+!assets/NotoSansJP-OFL.txt
+!assets/NotoSerifJP-OFL.txt
+
+# Never include local/generated files, including inside allowed folders.
+**/.env
+**/.env.*
+**/node_modules/
+**/__pycache__/
+**/*.py[cod]
+**/*.log
+**/*.jsonl
+**/*.pem
+**/*.key
+**/*.sketch
+**/*.tar.gz
